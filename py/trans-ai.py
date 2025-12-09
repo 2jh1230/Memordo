@@ -10,7 +10,7 @@ import httpx # googletrans의 타임아웃 설정을 위해 필요할 수 있음
 import traceback # 상세 오류 로깅용
 import re # 점수 추출 등 필요
 
-# --- RAG 관련 라이브러리 ---
+# --- RAG 관련 라이브러리 ----
 # pip install sentence-transformers chromadb
 from sentence_transformers import SentenceTransformer
 import chromadb
